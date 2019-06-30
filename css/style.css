@@ -1,0 +1,117 @@
+@import url("../fonts/Montserrat.css");
+
+.light {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.regular {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.background-first {
+    background-image: url(../img/sections-background/section-1\(header\).jpg);
+    background-size: cover;
+    height: 1012px;
+}
+
+.content-container {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header-container {
+    background-color: rgba(0,0,0,0.64);
+    height: 120px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo-img {
+    margin-right: 8px;
+}
+
+.logo::after {
+    content: 'H';
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+    left: 12px;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.accent {
+    color: #18cfab;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.link {text-decoration: none;}
+
+.header-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-menu > ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 644px;
+    box-sizing: border-box;
+}
+
+.header-menu li {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #bbbbbb;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.header-menu a {
+    padding: 53px 0 53px 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+}
+
+.header-menu a:hover:not(.search) {
+    border-bottom: 2px solid #18cfab;
+}
+
+.header-menu a:hover > li {
+    color: #18cfab;
+}
+
+.search {margin-left: 17px;}
