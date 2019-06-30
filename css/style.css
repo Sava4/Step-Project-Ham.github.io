@@ -98,12 +98,14 @@
     color: #bbbbbb;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    transition: color 0.2s;
 }
 
 .header-menu a {
     padding: 53px 0 53px 0;
     box-sizing: border-box;
     border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
 }
 
 .header-menu a:hover:not(.search) {
