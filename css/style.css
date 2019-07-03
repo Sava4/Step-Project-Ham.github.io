@@ -100,7 +100,7 @@
 
 .header-menu li {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 13px;
     color: #bbbbbb;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -125,19 +125,26 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 120px;
+    margin: 120px 0 50px;
 }
 
 .hero-text {
+    text-align: center;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.hero-slogan {font-size: 35px;}
+.hero-slogan {
+    font-size: 35px;
+    margin-bottom: 45px;
+}
 
-.hero-par {font-size: 69px;}
+.hero-par {
+    font-size: 69px;
+    margin-bottom: 37px;
+}
 
 .buy {
     color: rgba(212, 212, 212, 255);
@@ -145,3 +152,60 @@
     text-transform: capitalize;
     font-size: 30px;
 }
+
+.cta-buttons {
+    margin-top: 142px;
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+}
+
+.cta {
+    text-align: center;
+    width: 166px;
+    padding: 26px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: #18cfab;
+    border-radius: 5px;
+    box-shadow: 0 -4px white;
+}
+
+.cta:nth-child(2) {
+    background-color: #00cbf6;
+}
+
+.card-container {
+    width: 99vw;
+    height: 374px;
+    display: flex;
+    align-items: baseline;
+}
+
+.big-card {
+    flex: 1;
+    text-align: center;
+    padding-top: 78px;
+    background-color: #1c2a33;
+    border-top: 7px solid #18cfab;
+    color: #18cfab;
+}
+
+.big-card:nth-child(2n) {
+    padding-top: 99px;
+    background-color: #18cfab;
+    color: #fff;
+    border-top: 7px solid #fff;
+}
+
+.card-text {
+    margin: 48px 0 120px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
