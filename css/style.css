@@ -18,7 +18,6 @@
 .background-first {
     background-image: url(../img/sections-background/section-1\(header\).jpg);
     background-size: cover;
-    height: 1012px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,7 +113,9 @@
     transition: border-bottom 0.2s;
 }
 
-.header-menu a:hover:not(.search) {border-bottom: 2px solid #18cfab;}
+.header-menu a:hover:not(.search) {
+    border-bottom: 2px solid #18cfab;
+}
 
 .header-menu a:hover > li {color: #18cfab;}
 
@@ -125,7 +126,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 120px 0 50px;
+    padding: 366px 0 244px 0;
 }
 
 .hero-text {
@@ -180,7 +181,7 @@
 
 .card-container {
     width: 99vw;
-    height: 374px;
+    /* height: 374px; */
     display: flex;
     align-items: baseline;
 }
@@ -209,3 +210,88 @@
     font-weight: 700;
 }
 
+.our-services {
+    padding: 82px 0 103px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.our-services-heading {
+    color: #4e4e4e;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 112px;
+    position: relative;
+}
+
+.our-services-heading::before {
+    content:'';
+    height: 1px;
+    width: 76px;
+    background-color: #18cfab;
+    position: absolute;
+    bottom: -37px;
+    left: 68px;
+}
+
+.our-services-heading::after {
+    content:'';
+    height: 1px;
+    width: 76px;
+    background-color: #18cfab;
+    position: absolute;
+    bottom: -41px;
+    left: 80px;
+}
+
+.tab-group {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.our-services-tab {
+    color: #717171;
+    font-size: 16px;
+    width: 192px;
+    padding: 28px 0 29px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #f8fcfe;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.our-services-tab:hover {
+    color: #fff;
+    background-color: #18cfab;
+    border: 1px solid #18cfab;
+}
+
+.our-services-par {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-services-img {
+    flex-basis: 194px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.our-services-text {
+    color: #777777;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    align-self: stretch;
+    line-height: 1.5;
+}
