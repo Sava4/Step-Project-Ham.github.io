@@ -67,16 +67,12 @@
 .logo-text {
     color: #fff;
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
 }
 
 .accent {color: #18cfab;}
 
 .logo-ac {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
 }
 
 .link {text-decoration: none;}
@@ -132,8 +128,6 @@
 .hero-text {
     text-align: center;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -206,8 +200,6 @@
     margin: 48px 0 120px;
     text-transform: uppercase;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
 }
 
 .our-services {
@@ -223,8 +215,6 @@
 .our-services-heading {
     color: #4e4e4e;
     font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     margin-bottom: 112px;
     position: relative;
 }
@@ -260,8 +250,6 @@
     font-size: 16px;
     width: 192px;
     padding: 28px 0 29px 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     background-color: #f8fcfe;
     border: 1px solid #ebebeb;
     text-align: center;
@@ -290,8 +278,34 @@
     color: #777777;
     font-size: 14px;
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
     align-self: stretch;
     line-height: 1.5;
+}
+
+.background-second {
+    background-image: linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.80)), url(../img/sections-background/section-2.jpg);
+    background-size: cover;
+    width: 99vw;
+}
+
+.install-now {
+    padding: 128px 0 128px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy-and-install {
+    color: #18cfab;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.install-text {
+    font-size: 16px;
+    color: rgba(216, 216, 216, 255);
+    margin-bottom: 76px;
 }
