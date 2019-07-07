@@ -309,3 +309,108 @@
     color: rgba(216, 216, 216, 255);
     margin-bottom: 76px;
 }
+
+.background-our-work {
+    background-color: #f8fcfe;
+    width: 99vw;
+}
+
+.our-work {
+    padding: 96px 0 100px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-work-heading {
+    font-size: 36px;
+    color: #4e4e4e;
+    margin-bottom: 101px;
+    position: relative;
+}
+
+.our-work-heading::before {
+    content:'';
+    height: 1px;
+    width: 76px;
+    background-color: #18cfab;
+    position: absolute;
+    bottom: -26px;
+    left: 129px;
+}
+
+.our-work-heading::after {
+    content:'';
+    height: 1px;
+    width: 76px;
+    background-color: #18cfab;
+    position: absolute;
+    bottom: -30px;
+    left: 141px;
+}
+
+.our-work-tabs {
+    margin-bottom: 71px;
+    width: 609px;
+}
+
+.our-work-tab {
+    font-size: 14px;
+    color: #717171;
+    padding: 24px 0 20px 0;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    vertical-align: middle;
+    flex: auto;
+    border-top: 2px solid transparent;
+    transition: border-top 0.2s;
+}
+
+.our-work-tab:hover {
+    border-top: 2px solid #18cfab;
+}
+
+.work-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 71px;
+}
+
+.work-card {
+    position: relative;
+    overflow: hidden;
+    flex: 1 0 25%;
+}
+
+.our-work-card-img {
+    height: 100%;
+}
+
+.tooltip-text {
+    position: absolute;
+    bottom: -80px;
+}
+
+.load {
+    box-shadow: unset;
+    width: unset;
+    padding: 25px 21px 25px 54px;
+    font-size: 14px;
+    line-height: 0.75;
+    position: relative;
+}
+
+.load::before {
+    content:'';
+    position: absolute;
+    left: 23px;
+    top: 23px;
+    background-image: url(../img/Plus.png);
+    width: 16px;
+    height: 16px;
+}
