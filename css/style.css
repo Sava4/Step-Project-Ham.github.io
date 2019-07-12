@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 99vw;
+    width: 100%;
 }
 
 .content-container {width: 1160px;}
@@ -38,7 +38,7 @@
     height: 120px;
     position: fixed;
     top: 0;
-    width: 99vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -175,7 +175,7 @@
 }
 
 .card-container {
-    width: 99vw;
+    width: 100%;
     /* height: 374px; */
     display: flex;
     align-items: baseline;
@@ -255,7 +255,28 @@
     border: 1px solid #ebebeb;
     text-align: center;
     vertical-align: middle;
+    position: relative;
 }
+
+.our-services-tab[data-selected='yes']::after {
+    content: '';
+    height: 0;
+    width: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 13px solid #18cfab;
+    position: absolute;
+    top: 74px;
+    left: 45%;
+}
+
+.our-services-tab[data-selected='yes'] {
+    color: #fff;
+    background-color: #18cfab;
+    border: 1px solid #18cfab;
+}
+
+
 
 .our-services-tab:hover {
     color: #fff;
@@ -269,7 +290,12 @@
     align-items: center;
 }
 
+.our-services-par.hidden {
+    display: none;
+}
+
 .our-services-img {
+    align-self: flex-start;
     flex-basis: 194px;
     flex-shrink: 0;
     margin-right: 20px;
@@ -286,7 +312,7 @@
 .background-second {
     background-image: linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.80)), url(../img/sections-background/section-2.jpg);
     background-size: cover;
-    width: 99vw;
+    width: 100%;
 }
 
 .install-now {
@@ -313,7 +339,7 @@
 
 .background-our-work {
     background-color: #f8fcfe;
-    width: 99vw;
+    width: 100%;
 }
 
 .our-work {
@@ -456,7 +482,7 @@
 
 .background-news {
     background-color: #fff;
-    width: 99vw;
+    width: 100%;
 }
 
 .news {
@@ -574,7 +600,7 @@
     background-image: url(../img/sections-background/section-3.jpg);
     background-size: cover;
     background-position: center center;
-    width: 99vw;
+    width: 100%;
 }
 
 .about-ham {
@@ -714,7 +740,7 @@
 
 
 .footer {
-    width: 99vw;
+    width: 100%;
     text-align: center;
     padding: 47px 0 47px 0;
     background-color: #22353f;
